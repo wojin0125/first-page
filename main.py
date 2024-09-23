@@ -19,9 +19,9 @@ st.caption('캡션은 짧은 설명을 추가하는 것!')
 #코드 표시
 sample_code = '''
 def function():
-    print('hello, world)
+    print('hello, world')
 '''
-st.code(sample_code, langueage="python")
+st.code(sample_code, language="python")
 
 #일반 텍스트
 st.text('일반적인 텍스트를 입력해 보았습니다.')
