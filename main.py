@@ -8,13 +8,13 @@ st.title('학생회장 서민재 팬카페')
 st.title('★')
 
 #Header 적용
-st.header('헤더는 섹션의 제목 :sparkles:')
+st.header(':sparkles:동대문중 학생회장 서민재:sparkles:')
 
 #Subheader 적용
-st.subheader('subheader는 섹션의 부제목')
+st.subheader('09_minjae_seo')
 
 #캡션 적용
-st.caption('캡션은 짧은 설명을 추가하는 것!')
+st.caption('팔로우부탁해요')
 
 #코드 표시
 sample_code = '''
