@@ -1,11 +1,11 @@
 import streamlit as st
 
 # 타이틀 적용 예시
-st.title('학생회장 서민재 팬카페')
+st.title('★학생회장 서민재 팬카페★')
 
 # 특수 이모티콘 삽입 예시
 #emoji: httpsL://streamlit-emoji-shortcodes-streamlit-app-gwckff.streamlit.app/
-st.title('★')
+st.title('')
 
 #Header 적용
 st.header(':sparkles:동대문중 학생회장 서민재:sparkles:')
