@@ -12,8 +12,8 @@ if button:
 # 샘플 데이터 생성
 # Dataframe이란, pandas라이브러리에서 제공하는 2차원 데잍터 구조(엑셀과 유사)
 dataframe = pd.DataFrame({
-    'first column': ['kor','eng','math','science'],
-    'second column': [10, 20, 30, 40]
+    'first column': ['국어','영어','수학','사회','과학','역사'],
+    'second column': [92, 97, 84, 95, 94, 98]
 })
 
 #다운로드 버튼 연결
