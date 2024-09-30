@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from datetime import dadetime as dt
+from datetime import datetime as dt
 import datetime
 
 #버튼 클릭
