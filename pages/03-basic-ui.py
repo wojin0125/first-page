@@ -29,22 +29,30 @@ if agree:
     st.write('동의 해주셔서 감사합니다 :100:')
 
 mbti = st.radio(
-    '당신의 이상형의 성격은 무엇입니까?',
-    ('착함', '장난기', '선택지없음'))
-if mbti == 'ISTJ':
-    st.write('당신은 :blue[현실주의자] 이시네요')
-elif mbti == 'ENFP':
-    st.write('당신은 :green[활동가] 이시네요')
+    '당신이 가장 좋아하는 과목은 무엇입니까?',
+    ('국어', '영어', '수학', '사회', '과학', '역사', '그 외'))
+if mbti == '국어':
+    st.write('당신은 :red[국어]을 잘하나보네요')
+elif mbti == '영어':
+    st.write('당신은 :red[영어]를 잘하나보네요')
+elif mbti == '수학':
+    st.write('당신은 :red[수학]을 잘하나보네요')
+elif mbti == '사회':
+    st.write('당신은 :red[사회]를 잘하나보네요')
+elif mbti == '과학':
+    st.write('당신은 :red[과학]을 잘하나보네요')
+elif mbti == '역사':
+    st.write('당신은 :red[역사]를 잘하나보네요')
 else:
     st.write("당신에 대해 :red[알고 싶어요]:grey_exclamation:")
 
 title = st.text_input(
-    label='가고싶은 여행지가 있나요?'
-    placeholder='여행지를 입력해 주세요'
+    label='가고싶은 대학교가 있나요?'
+    placeholder='대학교를 입력해 주세요'
 )
-st.write(f'당신이 선택한 여행지: :violet[{title}]')
+st.write(f'당신이 선택한 대학교: :violet[{title}]')
 
 values = slider(
-    '범위의 값을 다음과 같이 지정할 수 있어요:sparkles:',
+    '당신의 시험점수의 평균을 선택하세요:sparkles:',
     0.0, 100.0, (25.0, 75.0))
 st.write('선택 범위:', values)
