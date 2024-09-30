@@ -47,7 +47,7 @@ else:
     st.write("당신에 대해 :red[알고 싶어요]:grey_exclamation:")
 
 title = st.text_input(
-    label='가고싶은 대학교가 있나요?'
+    label='가고싶은 대학교가 있나요?',
     placeholder='대학교를 입력해 주세요'
 )
 st.write(f'당신이 선택한 대학교: :violet[{title}]')
