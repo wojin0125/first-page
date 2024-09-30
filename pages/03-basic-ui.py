@@ -22,3 +22,4 @@ st.download_button(
     date=dateframe.to_csv(),      # dateframe을 csv형태로 변환
     file_name='sample.csv',
     mime='text/csv'               #데이터 유형
+)
