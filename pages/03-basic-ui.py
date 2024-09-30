@@ -11,7 +11,7 @@ if button:
 # 파일 다운로드 버튼
 # 샘플 데이터 생성
 # Dataframe이란, pandas라이브러리에서 제공하는 2차원 데잍터 구조(엑셀과 유사)
-dataframe = pf.DataFrame({
+dataframe = pd.DataFrame({
     'first column': ['kor','eng','math','science'],
     'second column': [10, 20, 30, 40]
 })
