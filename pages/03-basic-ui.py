@@ -29,11 +29,22 @@ if agree:
     st.write('동의 해주셔서 감사합니다 :100:')
 
 mbti = st.radio(
-    '당신의 MBTI는 무엇입니까?',
-    ('ISTJ', 'ENFP', '선택지 없음'))
+    '당신의 이상형의 성격은 무엇입니까?',
+    ('착함', '장난기', '선택지없음'))
 if mbti == 'ISTJ':
     st.write('당신은 :blue[현실주의자] 이시네요')
 elif mbti == 'ENFP':
     st.write('당신은 :green[활동가] 이시네요')
 else:
     st.write("당신에 대해 :red[알고 싶어요]:grey_exclamation:")
+
+title = st.text_input(
+    label='가고싶은 여행지가 있나요?'
+    placeholder='여행지를 입력해 주세요'
+)
+st.write(f'당신이 선택한 여행지: :violet[{title}]')
+
+values = slider(
+    '범위의 값을 다음과 같이 지정할 수 있어요:sparkles:',
+    0.0, 100.0, (25.0, 75.0))
+st.write('선택 범위:', values)
