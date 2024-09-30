@@ -12,7 +12,7 @@ if button:
 # 샘플 데이터 생성
 # Dataframe이란, pandas라이브러리에서 제공하는 2차원 데잍터 구조(엑셀과 유사)
 dataframe = pd.DataFrame({
-    'first column': ['국어','영어','수학','사회','과학','역사'],
+    'first column': ['korea','english','math','society','science','history'],
     'second column': [92, 97, 84, 95, 94, 98]
 })
 
@@ -23,3 +23,7 @@ st.download_button(
     file_name='sample.csv',
     mime='text/csv'               #데이터 유형
 )
+
+agree = st.checkbox('동의 하십니까?')
+if agree:
+    st.write('동의 해주셔서 감사합니다 :100:')
