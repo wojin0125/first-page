@@ -52,7 +52,7 @@ title = st.text_input(
 )
 st.write(f'당신이 선택한 대학교: :violet[{title}]')
 
-values = slider(
+values = st.slider(
     '당신의 시험점수의 평균을 선택하세요 :sparkles:',
     0.0, 100.0, (25.0, 75.0))
 st.write('선택 범위:', values)
