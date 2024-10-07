@@ -2,14 +2,14 @@ import streamlit as st
 import random
 import datetime
 
-st.title(':sparkles: 기말고사 답 찍기:sparkles:')
+st.title(':sparkles: 이번달 커플 생길 번호:sparkles:')
 
 
 def generate_lotto():
   lotto = set()
 
   while len(lotto) < 6:
-      number = random.randint(1, 7)
+      number = random.randint(1, 27)
       lotto.add(number)
 
   lotto = list(lotto)
