@@ -9,7 +9,7 @@ def generate_lotto():
   lotto = set()
 
   while len(lotto) < 6:
-      number = rendom.randint(1, 46)
+      number = random.randint(1, 46)
       lotto.add(number)
 
   lotto = list(lotto)
